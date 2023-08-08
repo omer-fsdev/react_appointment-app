@@ -35,7 +35,7 @@ const AppointmentList = ({ appointments, setAppointments }) => {
             className={consulted ? "appointments consulted mx-auto" : "appointments mx-auto"}
             onDoubleClick={() => handleDoubleClick(id)}
           >
-            <Row className="text-start ms-md-4">
+            <Row className="text-start ms-md-4 me-xs-1">
               <Col xs={3}>
                 <h5 className="">
                   {new Date(day).toLocaleDateString()},{" "}
