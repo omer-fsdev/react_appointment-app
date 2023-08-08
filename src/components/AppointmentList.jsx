@@ -21,7 +21,7 @@ const AppointmentList = ({ appointments, setAppointments }) => {
       <h3 className="display-5 border border-info rounded mb-3 mx-5 text-info">
       APPOINTMENTS
       </h3>
-      <p>Double click the appointment to mark it as consulted.</p>
+      <p>Double-click the appointment to mark it as consulted or to unmark it.</p>
       {!appointments.length && (
         <img src="./img/healed.png" className="bg-info-subtle p-5 rounded" width="40%" alt="no appointment" />
       )}
